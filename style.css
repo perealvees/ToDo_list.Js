@@ -5,5 +5,28 @@
     
 }
 body{
-    background: linear-gradient(to right, #54e9b7, #6dd5fa, #24a17c);
+    background: linear-gradient(to right, #2fb389, #8ae2b9, #24a17c);
+    min-height: 100vh;
+}
+
+header, form {
+font-size: larger;
+min-height: max-content;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+form input, form button {
+padding: 0.5rem;
+font-size: 1.5rem;
+border-radius: 1cm;
+background-color: rgb(233, 241, 241);
+}
+
+form buttom {
+color: rgb(226, 11, 11);
+background: #da1096;
+cursor: pointer;
+transition: all 0.2s ease;
 }

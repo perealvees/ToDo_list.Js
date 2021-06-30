@@ -1,1 +1,1 @@
-alert('Opa, rodou!') //aquela janelinha que abre de alerta//
+//alert('Opa, rodou!') //aquela janelinha que abre de alerta//
