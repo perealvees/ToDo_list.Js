@@ -5,7 +5,7 @@
     
 }
 body{
-    background: linear-gradient(to right, #2fb389, #8ae2b9, #24a17c);
+    background: linear-gradient(to right, #71f3b6, #4eeb94, #71f3b6);
     min-height: 100vh;
 }
 
@@ -14,19 +14,26 @@ font-size: larger;
 min-height: max-content;
 display: flex;
 justify-content: center;
-align-items: center;
+align-content: flex-start;
 }
 
 form input, form button {
 padding: 0.5rem;
 font-size: 1.5rem;
-border-radius: 1cm;
-background-color: rgb(233, 241, 241);
+border-bottom: #111010 ;
+background-color: rgb(240, 236, 236);
 }
 
-form buttom {
-color: rgb(226, 11, 11);
-background: #da1096;
+form button {
+color: rgb(19, 17, 17);
+background: #cccccc;
 cursor: pointer;
-transition: all 0.2s ease;
+transition: all 0.3s ease;
 }
+
+form button:hover {
+background: #fcfbfc;
+color: #cacac7;
+}
+
+
